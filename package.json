@@ -1,0 +1,24 @@
+{
+  "name": "popanimation",
+  "version": "0.0.1",
+  "description": "A popmotion wrapper adding support for interruptable animations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phparkle/popanimation.git"
+  },
+  "keywords": [
+    "popmotion",
+    "animation",
+    "velocity"
+  ],
+  "author": "Parkle Lee <phparkle@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phparkle/popanimation/issues"
+  },
+  "homepage": "https://github.com/phparkle/popanimation#readme"
+}
