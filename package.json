@@ -1,14 +1,17 @@
 {
-  "name": "popanimation",
+  "name": "animated-value",
   "version": "0.0.1",
   "description": "A popmotion wrapper adding support for interruptable animations.",
-  "main": "index.js",
+  "type": "module",
+  "source": "src/index.js",
   "scripts": {
+    "watch": "rimraf dist && microbundle watch",
+    "build": "rimraf dist && microbundle",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phparkle/popanimation.git"
+    "url": "git+https://github.com/phparkle/animated-value.git"
   },
   "keywords": [
     "popmotion",
@@ -18,7 +21,15 @@
   "author": "Parkle Lee <phparkle@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/phparkle/popanimation/issues"
+    "url": "https://github.com/phparkle/animated-value/issues"
   },
-  "homepage": "https://github.com/phparkle/popanimation#readme"
+  "homepage": "https://github.com/phparkle/animated-value#readme",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "microbundle": "^0.15.0",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "popmotion": "^11.0.3"
+  }
 }
